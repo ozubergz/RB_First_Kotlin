@@ -14,7 +14,7 @@ class MainViewModel : ViewModel() {
 
     private val _countries = MutableLiveData<List<Country>>();
 
-    val getCountries: LiveData<List<Country>>
+    val countries: LiveData<List<Country>>
         get() = _countries
 
     init {
